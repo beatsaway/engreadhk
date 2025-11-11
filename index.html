@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Ebook Library</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+        }
+        
+        body {
+            background: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e1e4e8;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 1.1rem;
+        }
+        
+        .book-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            overflow: hidden;
+        }
+        
+        .book-header {
+            background: #2c3e50;
+            color: white;
+            padding: 25px;
+        }
+        
+        .book-title {
+            font-size: 1.8rem;
+            margin-bottom: 5px;
+        }
+        
+        .book-author {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .book-content {
+            padding: 25px;
+        }
+        
+        .book-description {
+            margin-bottom: 25px;
+            font-size: 1.05rem;
+        }
+        
+        .read-button {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+        
+        .read-button:hover {
+            background: #2980b9;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+            
+            .book-header, .book-content {
+                padding: 20px;
+            }
+            
+            .book-title {
+                font-size: 1.5rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .book-title {
+                font-size: 1.3rem;
+            }
+            
+            .book-author {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ebook Library</h1>
+        <p class="subtitle">Free classics for everyone</p>
+    </header>
+    
+    <main>
+        <div class="book-container">
+            <div class="book-header">
+                <h2 class="book-title">Frankenstein; Or, The Modern Prometheus</h2>
+                <p class="book-author">by Mary Wollstonecraft Shelley</p>
+            </div>
+            
+            <div class="book-content">
+                <p class="book-description">
+                    "Frankenstein; Or, The Modern Prometheus" by Mary Wollstonecraft Shelley is a novel written in the early 19th century. The story explores themes of ambition, the quest for knowledge, and the consequences of man's hubris through the experiences of Victor Frankenstein and the monstrous creation of his own making. The opening of the book introduces Robert Walton, an ambitious explorer on a quest to discover new lands and knowledge in the icy regions of the Arctic. In his letters to his sister Margaret, he expresses both enthusiasm and the fear of isolation in his grand venture. As Walton's expedition progresses, he encounters a mysterious, emaciated stranger who has faced great suffering—furthering the intrigue of his narrative. This stranger ultimately reveals his tale of creation, loss, and the profound consequences of seeking knowledge that lies beyond human bounds. The narrative is set up in a manner that suggests a deep examination of the emotions and ethical dilemmas faced by those who dare to defy the natural order. (This is an automatically generated summary.)
+                </p>
+                
+                <a href="pg84-h/pg84-images.html" class="read-button">Read Now</a>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>More books coming soon</p>
+    </footer>
+</body>
+</html>
